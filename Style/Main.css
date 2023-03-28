@@ -1,0 +1,21 @@
+body {
+    background-color: #333333;
+  }
+  
+  #cover {
+    width: 1000px;
+    height: 1000px auto;
+    margin: 0 auto;
+  }
+  
+  #cover > img {
+    float: left auto;
+    border: 4px solid rgb(0, 0, 0);
+    width: 45%;
+    margin: 1.66%;
+  }
+  .grid-item{
+ text-align: center;
+ padding:0%;
+ color: rgb(175, 128, 25);
+  }
