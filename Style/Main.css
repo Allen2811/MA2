@@ -19,3 +19,49 @@ body {
  padding:0%;
  color: rgb(175, 128, 25);
   }
+  h3{
+    text-align: center;
+    font-size: 1rem;
+    font-size: xx-large;
+    color:rgb(206, 172, 100);
+  
+  }
+  p{
+    font-size: x-large;
+    text-align: center;
+    color:rgb(206, 172, 100);
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    #cover {
+      width: 800px;
+      height: 1000px auto;
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 800px ) {
+    #cover {
+      width: 600px;
+      height: 1000px auto;
+      margin: 0 auto;
+  }
+}
+
+  @media (max-width: 600px ) {
+    h1{
+      text-align: center;
+    }
+  
+    #cover {
+      align-items: center;
+      width: 585px;
+      height: 1000px auto;
+      margin: 0 auto;
+      align-items: center;
+    }
+    
+  }
+
+  
+  
