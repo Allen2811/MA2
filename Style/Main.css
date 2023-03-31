@@ -1,7 +1,7 @@
 body {
     background-color: #333333;
   }
-  
+  /* basic stlyization and size of each piture box*/
   #cover {
     width: 1000px;
     height: 1000px auto;
@@ -14,11 +14,14 @@ body {
     width: 45%;
     margin: 1.66%;
   }
+
+  /* top three links in nav */
   .grid-item{
  text-align: center;
  padding:0%;
  color: rgb(175, 128, 25);
   }
+  
   h3{
     text-align: center;
     font-size: 1rem;
@@ -32,7 +35,8 @@ body {
     color:rgb(206, 172, 100);
   }
   
-  
+  /* Each media query keep the photos in the window,
+  I adjusted the size of every picture box in each query*/
   @media screen and (max-width: 1000px) {
     #cover {
       width: 800px;
